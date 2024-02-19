@@ -1,0 +1,165 @@
+body{
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+    nav{
+        padding:2px 4px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul{
+        display:none;
+    }
+    nav button{
+        display: none;
+    }
+    nav h3{
+        font-size: 50px;
+    }
+
+    .btn-1
+    {display: none;
+    }
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /*border:5px solid red;*/
+    display: flex;
+    flex-direction: column;   
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.card-1
+{
+    line-height: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+.card-2
+{
+    width: 100%;
+    height: 80%;
+    display: none;
+}
+.pix{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    line-height: 50px;
+    margin-top: 30px;
+}
+p{
+    font-size: 20px;
+    line-height: 40px;
+    opacity: 0.80;
+    margin-bottom: 40px;
+}
+.btn
+{
+font-size: 12px;
+font-weight: 800;
+background-color: #1976D2;
+text-decoration: none;
+padding: 20px;
+color: white;
+border-radius: 10px;
+}
+/* mobile*/
+@media screen and (min-width:600px) {
+    body{
+        background-color: white;
+    }
+}
+h1
+{
+line-height: 20px;
+font-size: 30px;
+margin-top: 20px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+}
+/* tablet*/
+@media screen and (min-widthP:1024px) {
+    navh3{
+        display: none;
+    }
+    
+}
+nav{
+    padding: 16px 100px; 
+}
+nav ul
+{
+display: flex;
+list-style: none;
+gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2opx;
+    color: black;
+    opacity: 0.9;
+}
+nav button 
+{
+display: flex;
+}
+.card-2
+
+{
+width: 100px;
+height: 80px;
+display: flex;
+}
+h1
+{
+    line-height: 60px;
+    font-size: 55px;
+
+}
+.hero
+{
+display: flex;
+gap: 50px;
+padding: 60px;
+padding-left: 200px;
+margin-top: 20px;
+}
+.container
+{
+justify-content: space-between;
+align-items: center;
+max-width: 80%;
+}
+.logo
+{
+    width: 25%;
+    height: 25%;
+}
+.btn-1
+{
+    font-size: 20px;
+    color: white;
+    background-color: #1976D2;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 16px;
+    display: flex;
+}
